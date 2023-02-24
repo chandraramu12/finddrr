@@ -1,31 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DoM manipulation</title>
-</head>
-<body>
-    <ul>
-        <li>first</li>
-        <li>second</li>
-        <li>third</li>
-    </ul>
-    <script>
-        //root Node  gives information about root node
-        console.log(document.documentElement)
-        console.log(document.body)
-        console.log(document.head)
-
-        //childer to access elemts in childern
-
-        console.log(document.body.childNodes) // gives all the nodes including the text node 
-        console.log(document.body.children)   // gines only the element nodes
-        console.log(document.body.firstChild) // gives all nodes including blan space which is considered as text
-        console.log(document.body.lastChild)
-        console.log(document.body.firstElementChild)// gives only element tags
-        console.log(document.body.lastElementChild)
-    </script>
-</body>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Why learn CSS Grid layout?</h1>
+        <!-- https://caniuse.com/#feat=css-grid -->
+        <ul class="list">
+            <li>EASIER TO CREATE TWO DIMENSIONAL LAYOUTS</li>
+            <li>SIMPLER MARKUP</li>
+            <li>FLEXIBLE</li>
+            <li>SKIP FRAMEWORKS</li>
+            <li>BROWSER SUPPORT</li>
+            <li><a href="examples.html">SEE EXAMPLES</a></li>
+        </ul>
+    </body>
 </html>

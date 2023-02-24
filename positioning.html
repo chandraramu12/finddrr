@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>postioning</title>
+    <style>
+         .container {
+             display: grid;
+             grid-template-columns: repeat(10, 1fr);
+             grid-template-rows: repeat(100, 1fr);
+         }
+         .header{
+           background-color: red;
+           grid-column: 1 / -1;
+           grid-row: 1 / 10;
+         }
+         .menu{
+           background-color: blue;
+           grid-column: 1 / 2;
+           grid-row: 10 / 80;
+         }
+         .content{
+           background-color: yellow;
+           grid-column: 2 / -1;
+           grid-row: 10 / 80;
+         }
+         .footer{
+           background-color: green;
+           grid-column: 1 / -1;
+         }
+     </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="content">CONTENT</div>
+        <div class="footer">FOOTER</div>
+    </div>
+  </body>
+</html>
