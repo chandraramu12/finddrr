@@ -1,0 +1,55 @@
+.blood1{
+    background-color: white;
+    padding: 50px;
+    margin: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 03px solid black;
+    border-radius: 50px;
+}
+
+.blood1Side{
+    position: absolute;
+    top: 95px;
+    left: 450px;
+    font-size: 20px;
+}
+.blood1Side ul li{
+    list-style-type: none;
+}
+.blood2{
+    background-color: white;
+    padding: 50px;
+    margin: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 03px solid black;
+    border-radius: 50px;
+}
+.blood2Side{
+    position: absolute;
+    top: 410px;
+    left: 450px;
+    font-size: 20px;
+}
+.blood2Side ul li{
+    list-style-type: none;
+}
+.blood3{
+    background-color: white;
+    padding: 50px;
+    margin: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 03px solid black;
+    border-radius: 50px;
+}
+.blood3Side{
+    position: absolute;
+    top: 720px;
+    left: 450px;
+    font-size: 20px;
+}
+.blood3Side ul li{
+    list-style-type: none;
+}
