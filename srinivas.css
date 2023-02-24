@@ -1,0 +1,55 @@
+.srinivas1{
+    background-color: white;
+    padding: 50px;
+    margin: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 03px solid black;
+    border-radius: 50px;
+}
+
+.sri1Side{
+    position: absolute;
+    top: 95px;
+    left: 450px;
+    font-size: 20px;
+}
+.sri1Side ul li{
+    list-style-type: none;
+}
+.srinivas2{
+    background-color: white;
+    padding: 50px;
+    margin: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 03px solid black;
+    border-radius: 50px;
+}
+.sri2Side{
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    font-size: 20px;
+}
+.sri2Side ul li{
+    list-style-type: none;
+}
+.srinivas3{
+    background-color: white;
+    padding: 50px;
+    margin: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 03px solid black;
+    border-radius: 50px;
+}
+.sri3Side{
+    position: absolute;
+    top: 710px;
+    left: 450px;
+    font-size: 20px;
+}
+.sri3Side ul li{
+    list-style-type: none;
+}
