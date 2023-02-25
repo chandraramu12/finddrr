@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="imgLogin"><img src="login_doctor_image.png"></div>
+  <div class="div1">
+    <form class="myForm" method="post">
+        <h2>LOGIN</h2>
+      <label>Username</label>
+      <input type="text" name="name" class="inputText" placeholder="Enter your email id" id="usna">
+      <br><br>
+      <label>Password</label>
+      <input type="password" name="Pass" class="inputText" placeholder=" Enter your password" id="passcode">
+      <br><br>
+      <input type="button" name="log" id="logButton" value="Login" onclick="myFunction()">
+      <br><br>
+    </form>
+  </div>
+</body>
+<script>
+  function myFunction(){
+     var un= document.getElementById("usna").value;
+     var pw = document.getElementById("passcode").value;
+     if(un=="student" && pw=="1234"){
+       window.location.href="file:///C:/Users/maste/OneDrive/Desktop/dom%20manipulation/avaiable.html";
+     }
+     else{
+       window.location.href="file:///C:/Users/maste/OneDrive/Desktop/dom%20manipulation/welcome.html";
+     }
+   }
+</script>
+</html>
